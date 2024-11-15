@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f8f5; /* Світло-зелений фон */
+    color: #3b3b3b;
+    font-family: Arial, sans-serif;
+}
+
+/* Сайдбар */
+.sidebar {
+    background-color: #0a8754; /* Темно-зелений */
+    color: #e5ffe6;
+    padding: 20px;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    transition: all 0.3s;
+}
+
+.sidebar:hover {
+    background-color: #09713f; /* Темніше при наведенні */
+}
+
+.sidebar img {
+    display: block;
+    margin: 0 auto 15px; /* Вирівнювання зображення по центру */
+    width: 60px; /* Розмір зображення */
+}
+
+.sidebar .nav {
+    padding-left: 20px; /* Відступ для вирівнювання списку вправо */
+}
+
+.sidebar .nav-link {
+    color: #e5ffe6;
+    font-weight: 500;
+    padding: 10px;
+    transition: all 0.3s;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: #1e9469; /* Зеленувато-сірий фон */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link:focus {
+    background-color: #0f5d41; /* Темний зелений при наведенні */
+    color: #eafff5; /* Світлий текст */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Основний контент */
+main {
+    margin-left: 270px; /* Відступ для основного контенту поруч із фіксованою панеллю */
+    padding: 30px;
+    max-width: 800px;
+}
+
+h1 {
+    color: #0a8754; /* Основний темно-зелений */
+    background-color: #d7f5e0; /* Легкий фон для заголовка */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    background-color: #d7f5e0; /* Пастельний світло-зелений фон для списків */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+li {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
